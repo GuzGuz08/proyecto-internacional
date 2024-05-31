@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-titulo {
+  color: black;
+}
+
+.nav-titulo-argentina {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.nav-titulo-brasil {
+  font-size: 20px;
+  margin-top: -30px;
+  margin-left: 105px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  left: 180px;
+}
+
+.cuadro1 {
+  background-color: rgb(0, 54, 99);
+  width: 400px;
+  height: 420px;
+  border-radius: 20px;
+  color: white;
+}
+
+.cuadro1 h4 {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.cuadro2 {
+  background-color: rgb(218, 218, 218);
+  width: 400px;
+  height: 420px;
+  margin-left: 450px;
+  margin-top: -420px;
+  border-radius: 20px;
+}
+
+.cuadro2 h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.cuadro3 {
+  background-color: rgb(160, 0, 0);
+  width: 400px;
+  height: 420px;
+  margin-left: 900px;
+  margin-top: -420px;
+  border-radius: 20px;
+  color: white;
+}
+
+.cuadro3 h4 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.pr {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.cuadro1img {
+  width: 300px;
+  margin-left: 2px;
+}
+.cuadro2img {
+  width: 300px;
+  margin-left: 2px;
+}
+
+.cuadro3img {
+  width: 300px;
+  margin-left: 2px;
+}
+
+.cuadro4 {
+  background-color: rgb(218, 218, 218);
+  width: 400px;
+  height: 420px;
+  border-radius: 20px;
+}
+
+.cuadro4 h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.cuadro5 {
+  background-color: rgb(160, 0, 0);
+  width: 400px;
+  height: 420px;
+  margin-left: 450px;
+  margin-top: -420px;
+  border-radius: 20px;
+  color: white;
+}
+
+.cuadro5 h4 {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+
+.cuadro6 {
+  background-color: rgb(218, 218, 218);
+  width: 400px;
+  height: 420px;
+  margin-left: 900px;
+  margin-top: -420px;
+  border-radius: 20px;
+}
+
+.cuadro6 h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.pr {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.cuadro4img {
+  width: 300px;
+  margin-left: 2px;
+}
+.cuadro5img {
+  width: 300px;
+  margin-left: 2px;
+}
+
+.cuadro6img {
+  width: 300px;
+  margin-left: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.ingrediente {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+
+
+.francia{
+  width: 70px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 750px;
+}
+
+.japon{
+  width: 70px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 750px;
+}
