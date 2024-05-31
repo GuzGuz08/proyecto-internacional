@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 2000px;
+    background: b;
+}
+
+.nav-titulo{  
+   color: black;
+}
+
+.nav-titulo-argentina{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.nav-titulo-brasil{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 105px;
+}
+
+
+
+.nav-link{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    left: 180px;
+}
+
+
+
+.cabecera-img{
+    margin-left: 900px;
+    filter: drop-shadow(-24px 6px 12px  orange );
+}
+
+
+
+
+
+
+
+.cabecera  h1{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(33, 206, 17);
+}
+
+.cabecera h2{
+    text-align: center;
+    font-size: 10xp;
+    color:  #57CFF7;
+    margin-top: 10px;
+}
+
+
+.cabecera figure {
+
+    width: 1285px;
+    height: 600px;
+    background: url("../img/brasil-argentina.png") fixed;
+    background-size: cover;
+
+}
+
+
+.cartas h1,  h4{
+    text-align: center ;
+}
+
+
+.img-cartas img{
+    position: relative;
+    left: 150px;
+    width: 250px;
+    display: inline-block;
+    overflow:hidden;
+    z-index: -1;
+    transition: all 3s ease-out;
+    border-radius: 50px;
+}
+
+
+
+.moqueca{
+    font-size: 20px;
+   margin-left: 280px;
+   margin-top: -190px;
+   text-align: center;
+   padding: 150px 10px 40px 20px;
+   font-weight: 17500;
+   color: #fff;
+   z-index: 1;
+   opacity: 0;
+   transition: all 400ms ease-out;
+   width: 250px;
+   height: 250px;
+   margin-left: 150px;
+   margin-top: -253px;
+   background:  rgba(33, 206, 17, 0.333);
+   border-radius: 50px;
+
+}
+
+.moqueca:hover{
+    opacity: 1;
+    transition: all 400ms ease-out;
+    
+}
+
+
+
+.vatapa{
+    font-size: 20px;
+   margin-left: 280px;
+   margin-top: -190px;
+   text-align: center;
+   padding: 150px 10px 40px 20px;
+   font-weight: 17500;
+   color: #fff;
+   z-index: 1;
+   opacity: 0;
+   transition: all 400ms ease-out;
+   width: 250px;
+   height: 250px;
+   margin-left: 405px;
+   margin-top: -255px;
+   background:  rgba(33, 206, 17, 0.333);
+   border-radius: 50px;
+
+}
+
+.vatapa:hover{
+    opacity: 1;
+    transition: all 400ms ease-out;
+}
+
+
+.choripan{
+    font-size: 20px;
+   margin-left: 280px;
+   margin-top: -190px;
+   text-align: center;
+   padding: 150px 10px 40px 20px;
+   font-weight: 17500;
+   color: #fff;
+   z-index: 1;
+   opacity: 0;
+   transition: all 400ms ease-out;
+   width: 250px;
+   height: 250px;
+   margin-left: 660px;
+   margin-top: -260px;
+   background:  #57cff781;
+   border-radius: 50px;
+
+}
+
+.choripan:hover{
+    opacity: 1;
+    transition: all 400ms ease-out;
+}
+
+
+
+.locro{
+    font-size: 20px;
+   margin-left: 280px;
+   margin-top: -190px;
+   text-align: center;
+   padding: 150px 10px 40px 20px;
+   font-weight: 17500;
+   color: #fff;
+   z-index: 1;
+   opacity: 0;
+   transition: all 400ms ease-out;
+   width: 250px;
+   height: 250px;
+   margin-left: 910px;
+   margin-top: -255px;
+   background:  #57cff781;
+   border-radius: 50px;
+
+}
+
+.locro:hover{
+    opacity: 1;
+    transition: all 400ms ease-out;
+}
+
+
+.recetas{
+    background: #57ee35;
+    height: 1000px;
+    margin-top: -200px;
+}
+
+.recetas  h1, h2{
+    text-align: center;
+    margin-top: 190px;
+}
+
+.recetas h2{
+    margin-top: 20px;
+}
+
+
+
+.cartas-brasil  .card{
+    position: relative;
+    left: 200px;
+    display: inline-block;
+    
+}
+
+.btn{
+    background: black !important;
+    border: none;
+}
+
+
+
+.cartas-argentina  h1, h2{
+    text-align: center;
+    margin-top: 190px;
+}
+
+.cartas-argentina h2{
+    margin-top: 20px;
+}
+
+
+
+.receta2{
+    background: #57CFF7;
+    height: 1000px;
+    margin-top: -200px; 
+}
+
+.cartas-argentina  .card{
+    position: relative;
+    left: 200px;
+    
+    display: inline-block;
+
+    
+}
+
+
+
+footer{
+    background: black;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+}
